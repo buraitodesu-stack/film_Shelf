@@ -103,7 +103,7 @@ class MovieDetailsScreen extends StatelessWidget {
                             ),
                             const SizedBox(height: 8),
                             Text(
-                              '${movie.year}  •  ${movie.genre}  •  ${movie.duration}',
+                              '${movie.year}  |  ${movie.genre}  |  ${movie.duration}',
                               style: TextStyle(
                                 color: Colors.white.withValues(alpha: 0.6),
                                 fontWeight: FontWeight.w600,

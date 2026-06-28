@@ -62,8 +62,6 @@ See [BACKEND_ROADMAP.md](BACKEND_ROADMAP.md) for the backend handoff plan, inclu
 
 ![FilmShelf logo](assets/images/filmshelf_logo.png)
 
-App screenshots can be added here as the interface stabilizes.
-
 ## Maintainer
 
 Developed by **buraitodesu-stack**.
