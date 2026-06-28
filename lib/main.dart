@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'core/app_colors.dart';
-import 'screens/login_screen.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
   runApp(const FilmShelfApp());
@@ -33,7 +33,7 @@ class FilmShelfApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const LoginScreen(),
+      home: const SplashScreen(),
     );
   }
 }

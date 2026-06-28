@@ -1,51 +1,69 @@
-# FilmShelf 🎬
+# FilmShelf
 
-**FilmShelf** is a premium movie discovery and wishlist tracking application built with Flutter. It offers a sleek, minimalist "Glassmorphism" interface designed for movie enthusiasts who want to stay updated on upcoming releases and manage their personal watchlists.
+FilmShelf is a Flutter movie discovery and watchlist application for users who want to follow upcoming releases, browse trending films, and manage a personal movie library.
 
-## ✨ Features
+The current application is an MVP frontend prototype with a dark Material 3 interface, mock movie data, authentication screens, filtering controls, profile settings, and a startup splash screen.
 
-### 🚀 Exploration & Discovery
-*   **Home Dashboard**: A dynamic featured movie carousel and a "Trending Now" grid.
-*   **Explore (Coming Soon)**: Stay ahead of the curve with upcoming movie lists and release date countdowns.
-*   **Hot Section**: Browse movies currently trending in theaters and on streaming platforms.
-*   **Smart Search**: Quickly find movies by title, actors, or genres with recent search history.
+## Features
 
-### 📖 Personal Collection
-*   **Personal Library**: Add movies to your wishlist and build your own "Film Shelf."
-*   **Detailed View**: Comprehensive movie information including ratings, genres, duration, and plot overviews.
-*   **Trailers**: Integrated play buttons for quick trailer viewing.
-*   **Where to Watch**: Identify legal streaming services (Netflix, Disney+, Prime Video, etc.) based on your region.
+### Exploration And Discovery
 
-### 👤 User Experience
-*   **Authentication**: Secure Sign In and Sign Up flows.
-*   **Settings & Customization**: Manage your profile, set notification preferences, select your region, and customize your subscribed streaming services.
-*   **Premium UI**: A consistent Dark Mode experience using Material 3 and custom glass-effect widgets.
+- **Home Dashboard**: Featured movie carousel, genre browsing, search, advanced filters, and a trending movie grid.
+- **Coming Soon**: Upcoming movie discovery with planned release tracking.
+- **Hot Section**: Browse currently trending releases.
+- **Smart Search**: Search movies by title, genre, or release information.
 
-## 🛠️ Tech Stack
+### Personal Collection
 
-*   **Frontend**: [Flutter](https://flutter.dev) (Dart)
-*   **State Management**: StatefulWidget / setState (MVP Phase)
-*   **Planned Backend**: [FastAPI](https://fastapi.tiangolo.com/) (Python)
-*   **Icons**: Material Symbols
+- **Library**: Save movies to a personal watchlist.
+- **Movie Details**: View ratings, genres, duration, release information, and plot overview.
+- **Trailers**: Trailer play button placeholder for future media integration.
+- **Where To Watch**: Planned streaming availability by user region.
 
-## 🚀 Getting Started
+### User Experience
 
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/buraitodesu-stack/film_Shelf.git
-    ```
-2.  **Install dependencies**:
-    ```bash
-    flutter pub get
-    ```
-3.  **Run the app**:
-    ```bash
-    flutter run
-    ```
+- **Authentication**: Sign in and sign up flows.
+- **Splash Screen**: Displays the FilmShelf brand before entering the app.
+- **Settings**: Profile, preferences, notifications, region, language, streaming services, and sign out.
+- **Profile Editing**: Edit profile screen for basic user information.
 
-## 📸 Screenshots
+## Tech Stack
 
-*(Add your screenshots here later)*
+- **Frontend**: [Flutter](https://flutter.dev) and Dart
+- **State Management**: StatefulWidget and setState for the MVP phase
+- **Planned Backend**: [FastAPI](https://fastapi.tiangolo.com/) and Python
+- **Design System**: Material 3
 
----
-Developed by **buraitodesu-stack**
+## Backend Roadmap
+
+See [BACKEND_ROADMAP.md](BACKEND_ROADMAP.md) for the backend handoff plan, including authentication, movie APIs, watchlists, filters, user preferences, and the "Remind Me" feature for upcoming movies.
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/buraitodesu-stack/film_Shelf.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app:
+
+   ```bash
+   flutter run
+   ```
+
+## Screenshots
+
+![FilmShelf logo](assets/images/filmshelf_logo.png)
+
+App screenshots can be added here as the interface stabilizes.
+
+## Maintainer
+
+Developed by **buraitodesu-stack**.
